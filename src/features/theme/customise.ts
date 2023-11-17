@@ -1,1 +1,1 @@
-export const AI_NAME = "Enphase ChatBot";
+export const AI_NAME = "Enphase AIBot";

@@ -143,11 +143,11 @@ export const ChatUI: FC<Prop> = (props) => {
 
   const ChatWindow = (
     <div className="h-full rounded-md overflow-y-auto " ref={scrollRef}>
-      <div className="flex justify-center p-4">
+      {/* <div className="flex justify-center p-4">
         <ChatHeader
           chatBody={chatBody}
         />
-      </div>
+      </div> */}
       <div className=" pb-[80px] flex flex-col justify-end flex-1">
         {messages.map((message, index) => (
           <ChatRow
