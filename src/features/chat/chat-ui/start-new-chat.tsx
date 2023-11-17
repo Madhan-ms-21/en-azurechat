@@ -11,7 +11,7 @@ export const StartNewChat: FC<Prop> = (props) => {
   return (
     <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
       <div className="col-span-2 gap-5 flex flex-col flex-1">
-        <Image width={180} height={180} alt="" src="/ai-iconanime" />
+        <Image width={180} height={180} alt="" src="/ai-iconanime.png" />
       </div>
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
@@ -19,11 +19,12 @@ export const StartNewChat: FC<Prop> = (props) => {
         </Typography>
         <div className="flex flex-col gap-2">
           <p className="">
-            Welcome to {AI_NAME}. You should interact in a friendly manner with
-            the AI assistant and refrain from participating in any harmful
-            activities.
+            Welcome to {AI_NAME}.
+          You should interact in a friendly manner with the AI assistant and refrain from participating in any harmful activities. Any employee found to be misusing the AI Bot will be subjected to disciplinary action, up to and including termination of employment. Misuse includes unauthorized access, disclosure of confidential information, or any other violation of the usage policy.
+ 
+
           </p>
-          <p>You can start a new chat with me by clicking the button below.</p>
+          <p>You can start a new chat with AI Bot by clicking the button below.</p>
         </div>
         <div className="-mx-5 -mb-5 p-5 flex flex-col border-t bg-muted">
           <NewChat />
