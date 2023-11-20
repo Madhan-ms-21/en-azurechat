@@ -35,9 +35,9 @@ export const EmptyState: FC<Prop> = (props) => {
   };
 
   return (
-    <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
-      <div className="col-span-4 gap-5 flex flex-col flex-1">
-        <img src="/logo.png" className="w-25" />
+    <div className="grid grid-cols-4 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
+      <div className="col-span-3 gap-2 flex flex-col flex-1">
+        <img src="/logo.png" className="w-56" />
         
       </div>
        <Card className="col-span-3 flex flex-col gap-5 p-5 ">
