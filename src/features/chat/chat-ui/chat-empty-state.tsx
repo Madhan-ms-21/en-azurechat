@@ -39,7 +39,7 @@ export const EmptyState: FC<Prop> = (props) => {
       <div className="col-span-3 gap-2 flex flex-col flex-1">
         <img src="/logo.png" className="w-56" />
         
-      </div>
+      
        <Card className="col-span-3 flex flex-col gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
         Chat With AI Bot 
@@ -49,6 +49,7 @@ export const EmptyState: FC<Prop> = (props) => {
             Start by just typing your message in the box below.
           </p>
         </Card>
+        </div>
        {/* <div className="flex flex-col gap-2">
           <p className="text-sm text-muted-foreground">
             Choose a conversation style
